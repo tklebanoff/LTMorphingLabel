@@ -14,7 +14,10 @@ let package = Package(
             path: "LTMorphingLabel",
             exclude: ["SwiftUI"],
             resources: [
-                .process("Particles/*.png")
+                .process("Particles/Fire.png"),
+                .process("Particles/Smoke.png"),
+                .process("Particles/Fragment.png"),
+                .process("Particles/Sparkle.png"),
             ]
         ),
         .binaryTarget(
